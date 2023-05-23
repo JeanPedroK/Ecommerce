@@ -1,0 +1,75 @@
+$iconsSize: var(--icon-size);
+
+pre {
+	background-color: #272822;
+	color: #F8F8F2;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	border-color: #2f302a;
+}
+
+.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.toasted.bubble.info {
+	background-color: #fff3cd !important;
+	color: #856404 !important;
+	font-size: 1.2rem;
+
+	a {
+		color: black;
+	}
+
+}
+
+.toasted.bubble.error {
+	font-size: 1.2rem;
+
+	a {
+		color: black;
+	}
+}
+
+.toasted.bubble.default {
+	background-color: #d4edda !important;
+	color: #155724 !important;
+	font-size: 1.2rem;
+
+	a {
+		color: black;
+	}
+}
+
+
+nav {
+
+	.btn {
+		color: var(--primary-color) !important;
+		text-transform: uppercase;
+
+		&:hover {
+			border-color: var(--primary-color);
+			color: #343a40 !important;
+			background-color: var(--primary-color);
+		}
+
+	}
+
+	.dropdown-menu {
+		&.show {
+			top: -5px !important;
+			left: -12px !important;
+
+			a {
+				text-decoration: none;
+
+				&:hover {
+					background-color: var(--primary-color);
+
+				}
+			}
+		}
+	}
+}

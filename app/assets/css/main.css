@@ -1,0 +1,154 @@
+:root {
+    --primary-color: #ffc0cb !important;
+    --primary-outline-color: #efb0bb;
+    --first-color: #ffc0cb;
+    --prodv-color: #b38b4a;
+    --border-color: #b38b4a;
+    --btn-buy-text: " Eu quero";
+    --back-body: #e9eae9;
+    --first-color-text: #fff;
+
+    --icon-size: 1rem;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "DoocaCommerce-Flags";
+    src: url("~static/fonts/doocacommerce_flags.eot") format("embedded-opentype"),
+        url("~static/fonts/doocacommerce_flags.ttf") format("truetype"),
+        url("~static/fonts/doocacommerce_flags.woff") format("woff"),
+        url("~static/fonts/doocacommerce_flags.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class*="icon-dc"] {
+    font-family: DoocaCommerce-Flags !important;
+    speak-as: spell-out;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dc-ssl:before {
+    content: "\e901";
+}
+
+.icon-dc-googlesf:before {
+    content: "\e900";
+}
+
+.icon-dc-ame:before {
+    content: "\e902";
+}
+
+.icon-dc-amex:before {
+    content: "\e903";
+}
+
+.icon-dc-aura:before {
+    content: "\e904";
+}
+
+.icon-bancodobrasil:before {
+    content: "\e905";
+}
+
+.icon-dc-boleto:before {
+    content: "\e906";
+}
+
+.icon-dc-dinners:before {
+    content: "\e907";
+}
+
+.icon-dc-discover:before {
+    content: "\e908";
+}
+
+.icon-dc-elo:before {
+    content: "\e909";
+}
+
+.icon-dc-hiper:before {
+    content: "\e90a";
+}
+
+.icon-dc-hipercard:before {
+    content: "\e90b";
+}
+
+.icon-dc-inter:before {
+    content: "\e90c";
+}
+
+.icon-dc-itau:before {
+    content: "\e90d";
+}
+
+.icon-dc-jcb:before {
+    content: "\e90e";
+}
+
+.icon-dc-mastercard:before {
+    content: "\e90f";
+}
+
+.icon-dc-mercadopago:before {
+    content: "\e910";
+}
+
+.icon-dc-paypal:before {
+    content: "\e911";
+}
+
+.icon-dc-picpay:before {
+    content: "\e912";
+}
+
+.icon-dc-visa:before {
+    content: "\e913";
+}
+
+.dc-zoom__next::before,
+.dc-zoom__prev::before {
+    border-color: #282828;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.bgList {
+    background-color: var(--back-body);
+}
+
+.section-title {
+
+    margin-left: -8px;
+    margin-right: -38px;
+    margin-top: 5px;
+}
+
+.card-roud {
+    background-color: #fff;
+    border-radius: 5px;
+}
